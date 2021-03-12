@@ -9,7 +9,7 @@ This project copy lots codes and idea from following projects:
 
 ## Network
 
-This model based on RRDN and GAN.
+This model base on RRDN and GAN.
 
 
 ## Loss and Hyperparameter
