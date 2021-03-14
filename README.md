@@ -24,3 +24,7 @@ discriminator loss(real/fake) is for discriminator network
 
 Firstly, the different loss isn't uniform. Secondly, model need weight parts loss to obtain expectation result. 
 Hyperparameters are use to balance gen loss, gan loss and feat loss while training generator.
+
+## Test
+
+Tained without L1 or L2 loss, and compared visual quality on 55' TV (crop 960x540 area from orignal, X2, X3, X4 and merged to 1920x1080 picture, then show on 4K resolution with full screen). Yes, the same as lots of super resluiton papaer said, and got a very suppirsing visual quality. At the same time, I found some obviously artificial, especifiaclly in high rate scale. Some texture detail lost in low resolution cannot be properly recovered, too.  
