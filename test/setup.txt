@@ -3,3 +3,10 @@ Setup OpenVINO
 https://docs.openvinotoolkit.org/latest/openvino_docs_install_guides_installing_openvino_linux.html
 
 The dependency is a little complicate, I reinstalled full software stack for unknow mismatch library.
+
+Convert Tensorflow 2 model to OpenVINO
+https://docs.openvinotoolkit.org/latest/openvino_docs_MO_DG_prepare_model_convert_model_Convert_Model_From_TensorFlow.html#Convert_From_TF2X
+
+python3 /opt/intel/openvino_2021/deployment_tools/model_optimizer/mo_tf.py  --saved_model_dir models/rrdn/  --output_dir openvino_model/rrdn/ --input_shape [1,540,960,3]
+python3 /opt/intel/openvino_2021/deployment_tools/model_optimizer/mo_tf.py  --saved_model_dir models/fsrcnn/  --output_dir openvino_model/fsrcnn/ --input_shape [1,540,960,3]
+no space in the array --input_shape [1,540,960,3]
