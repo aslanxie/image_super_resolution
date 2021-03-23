@@ -1,0 +1,5 @@
+Setup OpenVINO
+
+https://docs.openvinotoolkit.org/latest/openvino_docs_install_guides_installing_openvino_linux.html
+
+The dependency is a little complicate, I reinstalled full software stack for unknow mismatch library.
